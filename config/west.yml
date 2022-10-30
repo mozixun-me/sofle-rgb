@@ -5,9 +5,9 @@ manifest:
     - name: mozixun-me
       url-base: https://github.com/mozixun-me
   projects:
-    - name: zmk-test
-      remote: mozixun-me
-      revision: sofle-bongo-cat-update
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
